@@ -3,3 +3,104 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+header
+{
+  background: #FFDBAA;
+  color: #553100;
+  padding: 0%;
+  border-bottom: 1px solid black;
+  display:flex;
+}
+
+#navbuttons
+{
+  display: flex;
+  flex-direction: row-reverse;
+  position:relative;
+  top:-65px;
+  left:275%;
+}
+
+#navigation button
+{
+  border: 1px solid;
+  text-align:center;
+  color: #ffffff;
+  background: #805215;
+  width: 100px;
+  height: 50px;
+
+}
+
+#mainpage
+{
+  background: #D4A76A;
+  display:grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+  gap: 20px;
+}
+
+#mainpage .block
+{
+  background: white;
+  padding: 15px;
+  width: 50%;
+  height: 200px;
+  vertical-align: top;
+  margin-left:20%;
+  margin-top: 10%;
+  text-align:center;
+}
+#mainpage h2
+{
+  text-align: center;
+}
+
+#mainpage p
+{
+text-align: left;
+}
+#mainpage button
+{
+  border: 1px solid;
+  color: #ffffff;
+  background: #805215;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  align-items:center;
+}
+
+#about
+{
+display:inline-block;
+text-align:left;
+background: white;
+margin-left: 5%;
+width:90%;
+grid-column: 1/5;
+margin-bottom:5%;
+}
+
+#about h2{
+  text-align:center;
+}
+#why
+{
+  position:relative;
+  left:630px;
+}
+
+#about button
+{
+  border: 1px solid;
+  display: block;
+  color: #ffffff;
+  background: #805215;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+}
